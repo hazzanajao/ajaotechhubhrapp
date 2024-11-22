@@ -1,1 +1,11 @@
-<p>contact-form works!</p>
+<form [formGroup] ="contactForm" (ngSubmit)="onSubmit()">
+
+  <input type="text" formControlName="name" placeholder="Name">
+  <input type="email" formControlName="email" placeholder="Email">
+  <input type="text" formControlName="phone" placeholder="Phone">
+  <input type="text" formControlName="address" placeholder="Address">
+  <input type="text" formControlName="degree" placeholder="Degree">
+  <input type="text " formControlName="profession" placeholder="Profession">
+  <input type="file" formControlName="file" accept="image/*,application/pdf">
+  <button type="submit">Submit</button>
+</form>
