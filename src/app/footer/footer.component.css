@@ -1,0 +1,11 @@
+.footer-toolbar {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.footer-toolbar nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
