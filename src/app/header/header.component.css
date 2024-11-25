@@ -1,0 +1,35 @@
+.header-toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.active-link {
+  border-bottom: 2px solid white;
+}
+
+@media (max-width: 600px) {
+  .header-toolbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    margin: 5px 0;
+  }
+}
